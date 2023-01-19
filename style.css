@@ -33,8 +33,8 @@ header .logo
 .toggle
 {
   position: relative;
-  width: 60px;
-  height: 60px;
+  width: 108px;
+  height: 88px;
   background: url(https://raw.githubusercontent.com/ghostm68/99/main/373-3738656_video-game-icon-online-multiplayer-png-icon_adobe_express.png);
   background-repeat: no-repeat;
   background-size: 30px;
@@ -45,7 +45,7 @@ header .logo
 {
   background: url(https://raw.githubusercontent.com/ghostm68/99/main/kisspng-arrow-clip-art-blitz-symbol-5b4b419bdc1f91.6193003915316586519016_adobe_express.png);
   background-repeat: no-repeat;
-  background-size: 25px;
+  background-size: 108px;
   background-position: center;
   cursor: pointer;
 }
