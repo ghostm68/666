@@ -38,7 +38,7 @@ header .logo
   background: url(https://raw.githubusercontent.com/ghostm68/99/main/373-3738656_video-game-icon-online-multiplayer-png-icon_adobe_express.png);
   background-repeat: no-repeat;
   background-size: 88px;
-  background-position: center;
+  background-position: right;
   cursor: pointer;
 }
 .toggle.active
