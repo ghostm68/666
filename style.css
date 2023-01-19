@@ -33,12 +33,12 @@ header .logo
 .toggle
 {
   position: relative;
-  width: 288px;
-  height: 188px;
+  width: 388px;
+  height: 288px;
   background: url(https://raw.githubusercontent.com/ghostm68/99/main/373-3738656_video-game-icon-online-multiplayer-png-icon_adobe_express.png);
   background-repeat: no-repeat;
   background-size: 30px;
-  background-position: center;
+  background-position: left;
   cursor: pointer;
 }
 .toggle.active
