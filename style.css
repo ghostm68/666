@@ -166,11 +166,11 @@ header .logo
   position: absolute;
   top: 0;
   right: 0;
-  width: 666px;
+  width: 300px;
   height: 100%;
   display: flex;
-  justify-content: left;
-  align-items: left;
+  justify-content: center;
+  align-items: center;
 }
 .menu ul
 {
