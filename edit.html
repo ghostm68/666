@@ -78,341 +78,846 @@ Private personal information, ព័ត៌មានផ្ទាល់ខ្ល�
     <canvas data-component="background"></canvas>
   </div>
 
-  <header class="c-site-header o-container">
-  <button class="c-site-header__menu-toggle u-text-small" data-pointer="menu" id="menu-toggle">
-    <span>Menu</span>
-    <span>Close</span>
-  </button>
 
-  <a class="c-site-header__brand" href="/en/" data-pointer="home" aria-label="Home">
-    <svg class="o-logo" viewBox="0 0 150 60">
-  <path class="o-logo__subtitles" shape-rendering="geometricPrecision" d="M71.347,58.679h-3.901v-7.261h-1.39v7.917h5.291V58.679z M87.026,0.58l-0.463,1.004h-2.472
-  c-0.36,0.695-0.541,1.043-0.541,1.043c1.081,0.154,1.931,0.541,2.549,1.159c0.193,0.193,0.348,0.386,0.463,0.618
-  c0.116,0.193,0.193,0.425,0.27,0.695c0.077,0.193,0.116,0.463,0.116,0.734c0,0.695-0.232,1.274-0.695,1.777
-  c-0.154,0.154-0.309,0.309-0.502,0.425s-0.386,0.232-0.579,0.309c-0.193,0.077-0.386,0.154-0.618,0.193
-  c-0.193,0.039-0.425,0.039-0.618,0.039c-0.811-0.039-1.429-0.386-1.815-1.12l0.348-0.116c0.154,0.193,0.309,0.386,0.463,0.502
-  s0.309,0.193,0.463,0.27c0.309,0.077,0.618,0.116,1.004,0.039c0.077,0,0.193-0.039,0.27-0.077l0.309-0.116
-  c0.116-0.039,0.193-0.116,0.309-0.154c0.116-0.077,0.193-0.116,0.27-0.193c0.124-0.125,0.228-0.268,0.309-0.425
-  c0.077-0.154,0.116-0.348,0.154-0.502c0.039-0.193,0.039-0.348,0-0.541c0-0.193-0.077-0.348-0.116-0.502l-0.232-0.541
-  c-0.081-0.157-0.185-0.3-0.309-0.425c-0.116-0.116-0.27-0.232-0.425-0.348s-0.386-0.193-0.618-0.309
-  c-0.425-0.154-1.043-0.27-1.777-0.309c0,0,0.528-1.03,1.583-3.09h2.896L87.026,0.58z M78.375,3.863
-  c0.425-0.348,0.695-0.618,0.811-0.811c0.232-0.309,0.348-0.657,0.348-1.043c0-0.386-0.116-0.734-0.386-0.965
-  c-0.27-0.232-0.579-0.348-1.043-0.348c-0.386,0-0.734,0.116-1.004,0.309c-0.309,0.232-0.463,0.502-0.463,0.85
-  c0,0.193,0.039,0.386,0.154,0.618c0.154,0.232,0.309,0.425,0.463,0.579L78.375,3.863z M77.68,4.712
-  c-0.695,0.541-1.043,1.197-1.043,1.931c0,0.463,0.154,0.85,0.425,1.159c0.309,0.348,0.695,0.502,1.197,0.502
-  c0.425,0,0.772-0.116,1.043-0.309c0.309-0.232,0.463-0.541,0.463-0.888c0-0.27-0.077-0.541-0.232-0.772
-  C79.186,5.91,78.607,5.369,77.68,4.712 M77.371,4.481c-0.541-0.386-0.888-0.695-1.081-0.965c-0.348-0.386-0.541-0.811-0.541-1.274
-  c0-0.579,0.232-1.043,0.734-1.39c0.463-0.309,1.004-0.502,1.661-0.502c0.579,0,1.12,0.154,1.545,0.425
-  c0.502,0.309,0.772,0.734,0.772,1.274c0,0.657-0.579,1.313-1.777,2.008c0.734,0.541,1.236,0.927,1.468,1.236
-  c0.309,0.386,0.502,0.811,0.502,1.274c0,0.618-0.27,1.12-0.772,1.506c-0.463,0.348-1.043,0.541-1.738,0.541
-  c-0.811,0-1.468-0.232-1.931-0.695c-0.348-0.386-0.541-0.772-0.541-1.236C75.672,5.987,76.251,5.253,77.371,4.481 M72.891,4.597
-  c0.077-0.502,0.116-0.927,0.116-1.197c0-0.386-0.077-0.772-0.193-1.197c-0.154-0.463-0.348-0.811-0.618-1.043
-  c-0.27-0.232-0.541-0.348-0.888-0.348c-0.502,0-0.85,0.193-1.12,0.618c-0.193,0.348-0.309,0.734-0.309,1.236
-  c0,0.811,0.193,1.468,0.579,1.931c0.27,0.348,0.618,0.502,1.004,0.502C72.003,5.06,72.466,4.906,72.891,4.597 M68.952,8.652
-  c0-0.154,0-0.232,0-0.232c1.159,0,2.124-0.541,2.935-1.545c0.425-0.579,0.734-1.197,0.927-1.892
-  c-0.657,0.386-1.274,0.579-1.815,0.579c-0.695,0-1.236-0.232-1.661-0.734c-0.386-0.463-0.579-1.004-0.579-1.622
-  c0-0.695,0.232-1.313,0.657-1.854c0.541-0.657,1.197-1.004,2.047-1.004c0.695,0,1.313,0.27,1.815,0.811
-  c0.618,0.657,0.927,1.468,0.927,2.472c0,0.888-0.232,1.738-0.734,2.472c-0.463,0.734-1.12,1.352-1.931,1.854
-  c-0.695,0.425-1.429,0.618-2.24,0.618c0,0-0.116,0-0.348,0V8.652z M63.661,1.352l2.085-0.927h0.193v8.072h-1.043
-  c0-3.785,0-5.677,0-5.677c0-0.579-0.039-0.927-0.077-1.12c-0.077-0.232-0.193-0.348-0.463-0.348c-0.154,0-0.386,0.077-0.657,0.193
-  C63.7,1.546,63.687,1.481,63.661,1.352z M92.626,51.535c-0.772,0-1.39,0.27-1.854,0.772c-0.579,0.657-0.888,1.622-0.888,2.858
-  c0,1.313,0.309,2.279,0.888,2.974c0.463,0.541,1.081,0.811,1.854,0.811c1.004,0,1.738-0.386,2.24-1.197
-  c0.386-0.618,0.579-1.429,0.579-2.433c0-1.081-0.193-1.931-0.541-2.549C94.402,51.959,93.669,51.535,92.626,51.535L92.626,51.535z
-   M92.742,51.11c1.197,0,2.201,0.425,3.012,1.236c0.772,0.811,1.159,1.738,1.159,2.858c0,1.159-0.386,2.124-1.159,2.935
-  c-0.811,0.85-1.854,1.274-3.09,1.274c-1.274,0-2.279-0.425-3.09-1.236c-0.772-0.772-1.12-1.777-1.12-2.935
-  c0-1.274,0.463-2.279,1.39-3.09C90.656,51.457,91.622,51.11,92.742,51.11L92.742,51.11z M80.345,51.419h0.657l5.291,5.947v-5.947
-  h0.579v8.072H86.64l-5.677-6.372v6.256h-0.579v-7.956H80.345z M76.599,56.246l-1.468-3.205l-1.506,3.205H76.599z M75.402,51.226
-  h0.232l3.978,8.11h-1.622l-0.27-0.695l-0.386-0.85l-0.541-1.159h-3.36l-1.236,2.665H71.54L75.402,51.226z M64.318,59.336h-1.429
-  v-7.917h1.429V59.336z M52.461,51.419h1.197l3.051,6.179l3.012-6.179h1.197v7.917h-1.197v-6.681l-3.244,6.681h-0.193l-3.244-6.681
-  v6.681H52.5v-7.917H52.461z"/>
-<path class="o-logo__text" d="M125.067,15.865v-2.279h-21.859v32.865h5.33V29.498h11.084v-2.279h-11.084V15.865H125.067z M100.273,15.865
-  v-2.279H78.414v32.865h5.33V29.498h11.084v-2.279H83.743V15.865H100.273z M149.397,15.865v-2.279h-21.859v32.865h5.33v-0.039h16.529
-  v-2.317h-16.529V29.498h11.084v-2.279h-11.084V15.865L149.397,15.865z M73.046,15.865v-2.279h-21.82v32.865h5.291v-0.039h16.529
-  v-2.317H56.517V29.498h11.122v-2.279H56.517V15.865L73.046,15.865z M38.288,13.586h5.368v32.865h-5.368V13.586z M29.753,36.681
-  c-2.047,4.557-6.141,7.685-10.814,7.685c-6.758,0-12.204-6.411-12.204-14.328S12.22,15.711,18.94,15.711
-  c4.557,0,8.535,2.935,10.62,7.261l2.394-1.506c-3.012-4.712-8.38-7.84-14.521-7.84c-9.423,0-17.031,7.376-17.031,16.452
-  c0,9.114,7.608,16.452,17.031,16.452c6.334,0,11.818-3.321,14.753-8.265C32.186,38.264,31.375,37.737,29.753,36.681"/>
-</svg>
-  </a>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/magnific-popup.js/1.1.0/magnific-popup.css" />
+  
+  <script type="module" crossorigin src="/assets/main.38ea8ffd.js"></script>
+    <link rel="modulepreload" href="/assets/index.c6fe9129.js">
+    <link rel="modulepreload" href="/assets/vendor.4072182a.js">
+    <link rel="stylesheet" href="/assets/index.8ef01fbd.css">
+  </head>
 
-  <a href="/en/contacts/" class="c-site-header__contact u-text-small" data-pointer="contact">Contacts</a>
-</header>
+<body data-barba="wrapper">
 
-<div class="c-menu" data-component="menu">
-  <div class="o-container" data-ref="menu.wrapper">
-    <div class="o-grid">
-      <nav class="o-col-12 c-menu__col u-flow u-flow-l">
-        <ul class="c-menu__nav">
-                      <li class="c-menu__nav-item " data-ref="menu.item" data-stagger>
-              <a class="c-menu__nav-link" href="/en/about/" data-component="theme-hover" data-theme-id="coal" data-pointer>
-                <span class="c-menu__nav-label" data-counter="01">About</span>
-                <span class="c-menu__nav-abstract">We create beauty<br />
-as a vocation</span>
-                <span class="c-menu__nav-image lazyload" data-sizes="auto" data-bgset="/site/assets/files/1041/about-2.640x0.jpg 640w 360h, /site/assets/files/1041/about-2.1024x0.jpg 1024w 575h, /site/assets/files/1041/about-2.1920x0.jpg 1920w 1079h"></span>
-              </a>
-            </li>
-                      <li class="c-menu__nav-item " data-ref="menu.item" data-stagger>
-              <a class="c-menu__nav-link" href="/en/culture/" data-component="theme-hover" data-theme-id="brown" data-pointer>
-                <span class="c-menu__nav-label" data-counter="02">Culture</span>
-                <span class="c-menu__nav-abstract">We are loyal to the style<br />
-of our clients</span>
-                <span class="c-menu__nav-image lazyload" data-sizes="auto" data-bgset="/site/assets/files/1042/culture-2.640x0.jpg 640w 360h, /site/assets/files/1042/culture-2.1024x0.jpg 1024w 575h, /site/assets/files/1042/culture-2.1920x0.jpg 1920w 1079h"></span>
-              </a>
-            </li>
-                      <li class="c-menu__nav-item " data-ref="menu.item" data-stagger>
-              <a class="c-menu__nav-link" href="/en/prototyping/" data-component="theme-hover" data-theme-id="elephant" data-pointer>
-                <span class="c-menu__nav-label" data-counter="03">Prototyping</span>
-                <span class="c-menu__nav-abstract">From sketch to garment,<br />
-a complete and customized service</span>
-                <span class="c-menu__nav-image lazyload" data-sizes="auto" data-bgset="/site/assets/files/1044/prototyping-2.640x0.jpg 640w 360h, /site/assets/files/1044/prototyping-2.1024x0.jpg 1024w 575h, /site/assets/files/1044/prototyping-2.1920x0.jpg 1920w 1079h"></span>
-              </a>
-            </li>
-                      <li class="c-menu__nav-item " data-ref="menu.item" data-stagger>
-              <a class="c-menu__nav-link" href="/en/production/" data-component="theme-hover" data-theme-id="dove" data-pointer>
-                <span class="c-menu__nav-label" data-counter="04">Production</span>
-                <span class="c-menu__nav-abstract">We transform a creative vision<br />
-into exclusive garments</span>
-                <span class="c-menu__nav-image lazyload" data-sizes="auto" data-bgset="/site/assets/files/1043/production-2.640x0.jpg 640w 360h, /site/assets/files/1043/production-2.1024x0.jpg 1024w 575h, /site/assets/files/1043/production-2.1920x0.jpg 1920w 1079h"></span>
-              </a>
-            </li>
-                      <li class="c-menu__nav-item " data-ref="menu.item" data-stagger>
-              <a class="c-menu__nav-link" href="/en/sustainability/" data-component="theme-hover" data-theme-id="green" data-pointer>
-                <span class="c-menu__nav-label" data-counter="05">Sustainability</span>
-                <span class="c-menu__nav-abstract">Ethics and aesthetics:<br />
-an inseparable bond</span>
-                <span class="c-menu__nav-image lazyload" data-sizes="auto" data-bgset="/site/assets/files/1045/sustainability-2.640x0.jpg 640w 360h, /site/assets/files/1045/sustainability-2.1024x0.jpg 1024w 575h, /site/assets/files/1045/sustainability-2.1920x0.jpg 1920w 1079h"></span>
-              </a>
-            </li>
-                  </ul>
-
-        <div class="c-menu__video" data-stagger data-component="show-video">Play video</div>
-
-        <div class="c-menu__languages" data-stagger>
-          <ul class="c-languages u-text-small">
-      <li class=""><a href="/" data-pointer="lang" data-barba-prevent>Italiano</a></li>
-      <li class="is-active"><a href="/en/" data-pointer="lang" data-barba-prevent>English</a></li>
-  </ul>
-        </div>
-
-        <div class="c-menu__colophon" data-component="open-overlay">
-          <p><a href="#company-info">P.IVA 13399560153</a> — <a href="/privacy/">Privacy</a> — <a href="/cookies/">Cookie</a> — <a href="/safety/">PPE</a> — <a href="https://www.basili.co" target="_blank" rel="noreferrer noopener">Credits</a> — <a href="https://www.instagram.com/cieffemilano/" rel="nofollow noreferrer noopener" target="_blank">Instagram</a> — <a href="https://www.linkedin.com/company/cieffe/" rel="nofollow noreferrer noopener" target="_blank">LinkedIn</a></p>
-        </div>
-      </nav>
+  <div class="c-loader js-loader">
+    <div class="c-loader__mask js-loader__mask">
+      <img src="/assets/loading_clean.b31c7c03.webp" alt="" />
+      <div class="c-loader__inner js-loader__inner">
+        <img src="/assets/loading_clean.b31c7c03.webp" alt="" />
+      </div>
     </div>
   </div>
-</div>
+  <div class="container">
+    <div class="menu-close">
+      <div class="menu-close-img">
+        <img src="/assets/close_menu.a699e392.svg" alt="" />
+      </div>
+    </div>
+    <div class="hr"></div>
+    <div class="menu">
+      <div class="menu-left">
+        <h5 class="menu_text_left">¤</h5>
 
-  <div data-scroll-container id="main">
-    <main data-barba="container" data-barba-namespace="home" class="c-main" data-theme="coal">
-        <div data-scroll-section></div>
-    <div class="c-cards" data-component="cards">
-    <div class="c-cards__container">
-      <div class="c-cards__wrapper">
-        <div class="c-cards__card c-cards__card--dummy" data-ref="cards.cardDummy">
-          <div class="c-cards__card-wrapper c-rounded">
-            <canvas class="c-cards__mask" data-component="background" data-background-mask="0.1" data-ref="cards.mask"></canvas>
-
-            <div class="c-rounded__corners">
-              <canvas data-component="corner"></canvas>
-              <canvas data-component="corner"></canvas>
-              <canvas data-component="corner"></canvas>
-              <canvas data-component="corner"></canvas>
-            </div>
+        <div class="menu-links">
+          <div class="menu-link">
+            <a href="#" class="nav__link">
+              <span class="nav__link--text" data-splitting>Home</span>
+              <span class="nav__link--text" data-splitting>Home</span>
+            </a>
+            <b>N°1</b>
+          </div>
+          <div class="menu-link">
+            <a href="./musicvideos.html" class="nav__link">
+              <span class="nav__link--text" data-splitting>Music Videos</span>
+              <span class="nav__link--text" data-splitting>Music Videos</span>
+            </a>
+            <b>N°2</b>
+          </div>
+          <div class="menu-link">
+            <a href="./brandcontent.html" class="nav__link">
+              <span class="nav__link--text" data-splitting>Brand Content</span>
+              <span class="nav__link--text" data-splitting>Brand Content</span> </a><b>N°3</b>
+          </div>
+          <div class="menu-link">
+            <a href="./photo.html" class="nav__link">
+              <span class="nav__link--text" data-splitting>Portraits & Photography</span>
+              <span class="nav__link--text" data-splitting>Portraits & Photography</span> </a><b>N°4</b>
+          </div>
+          <div class="menu-link">
+            <a href="./graphics.html" class="nav__link">
+              <span class="nav__link--text" data-splitting>Artwork & Graphics</span>
+              <span class="nav__link--text" data-splitting>Artwork & Graphics</span> </a><b>N°5</b>
+          </div>
+          <div class="menu-link">
+            <a href="./workstructure.html" class="nav__link">
+              <span class="nav__link--text" data-splitting>Work Structure & Costs</span>
+              <span class="nav__link--text" data-splitting>Work Structure & Costs</span> </a><b>N°6</b>
+          </div>
+          <div class="menu-link">
+            <a href="#" class="nav__link">
+              <span class="nav__link--text" data-splitting>Socials & Contact</span>
+              <span class="nav__link--text" data-splitting>Socials & Contact</span>
+            </a>
+            <ul>
+              <li>
+                <a href="https://www.instagram.com/crevixa">Instagram</a>
+              </li>
+              <li><a href="https://youtube.com/crevixa">Youtube</a></li>
+              <li><a href="https://linktr.ee/crevixa">RSS</a></li>
+            </ul>
           </div>
         </div>
-
-                  <a href="/en/about/" draggable="false" class="c-cards__card" data-ref="cards.card" data-theme-id="coal" data-pointer data-barba-transition="cards">
-            <div class="c-cards__card-wrapper c-rounded">
-              <div class="c-cards__media">
-                                  <video src="/site/assets/files/1041/about.mp4" loop muted preload="none" playsinline></video>
-                
-                                  <div class="lazyload lazypreload" data-sizes="auto" data-bgset="/site/assets/files/1041/about-2.640x0.jpg 640w 360h, /site/assets/files/1041/about-2.1024x0.jpg 1024w 575h, /site/assets/files/1041/about-2.1920x0.jpg 1920w 1079h"></div>
-                              </div>
-
-              <canvas class="c-cards__mask" data-component="background" data-background-mask="0.1" data-ref="cards.mask"></canvas>
-
-              <div class="c-rounded__corners">
-                <canvas data-component="corner"></canvas>
-                <canvas data-component="corner"></canvas>
-                <canvas data-component="corner"></canvas>
-                <canvas data-component="corner"></canvas>
+        <h5 class="menu_text_left">
+          Copyright © & ℗ <br /><em>CREVIXA™</em>
+        </h5>
+      </div>
+      <div class="menu-right">
+        <section class="swiper__slider">
+          <!-- Swiper -->
+          <div class="swiper mySwiper">
+            <div class="swiper-wrapper">
+              <div class="swiper-slide">
+                <div class="menu-item">
+                  <div class="menu_number"><span>N°</span>1</div>
+                  <h3>MUSIC VIDEO</h3>
+                  <h4>SHOWCASE & ARCHIVE</h4>
+                  <div class="menu_btn">
+                    <a class="close_menu" href="./musicvideos.html">explore↗</a>
+                  </div>
+                </div>
               </div>
-
-              <div class="c-cards__content o-reveal-childs u-flow u-flow-xs u-pb-l">
-                <p class="c-cards__label u-text-small">About</p>
-                <h1 class="c-cards__title">Design <em>for</em> Beauty</h1>
-
-                                  <p class="c-cards__abstract u-flow-m u-text-small">We create beauty as a vocation</p>
-                              </div>
-            </div>
-          </a>
-                  <a href="/en/culture/" draggable="false" class="c-cards__card" data-ref="cards.card" data-theme-id="brown" data-pointer data-barba-transition="cards">
-            <div class="c-cards__card-wrapper c-rounded">
-              <div class="c-cards__media">
-                                  <video src="/site/assets/files/1042/culture.mp4" loop muted preload="none" playsinline></video>
-                
-                                  <div class="lazyload lazypreload" data-sizes="auto" data-bgset="/site/assets/files/1042/culture-2.640x0.jpg 640w 360h, /site/assets/files/1042/culture-2.1024x0.jpg 1024w 575h, /site/assets/files/1042/culture-2.1920x0.jpg 1920w 1079h"></div>
-                              </div>
-
-              <canvas class="c-cards__mask" data-component="background" data-background-mask="0.1" data-ref="cards.mask"></canvas>
-
-              <div class="c-rounded__corners">
-                <canvas data-component="corner"></canvas>
-                <canvas data-component="corner"></canvas>
-                <canvas data-component="corner"></canvas>
-                <canvas data-component="corner"></canvas>
+              <div class="swiper-slide">
+                <div class="menu-item">
+                  <div class="menu_number"><span>N°</span>2</div>
+                  <h3>BRAND<br />CONTENT</h3>
+                  <h4>SHOWCASE & ARCHIVE</h4>
+                  <div class="menu_btn">
+                    <a class="close_menu" href="./brandcontent.html">explore↗</a>
+                  </div>
+                </div>
               </div>
-
-              <div class="c-cards__content o-reveal-childs u-flow u-flow-xs u-pb-l">
-                <p class="c-cards__label u-text-small">Culture</p>
-                <h1 class="c-cards__title">Partners <em>in</em> Dreams</h1>
-
-                                  <p class="c-cards__abstract u-flow-m u-text-small">We are loyal to the style of our clients</p>
-                              </div>
-            </div>
-          </a>
-                  <a href="/en/prototyping/" draggable="false" class="c-cards__card" data-ref="cards.card" data-theme-id="elephant" data-pointer data-barba-transition="cards">
-            <div class="c-cards__card-wrapper c-rounded">
-              <div class="c-cards__media">
-                                  <video src="/site/assets/files/1044/prototyping.mp4" loop muted preload="none" playsinline></video>
-                
-                                  <div class="lazyload lazypreload" data-sizes="auto" data-bgset="/site/assets/files/1044/prototyping-2.640x0.jpg 640w 360h, /site/assets/files/1044/prototyping-2.1024x0.jpg 1024w 575h, /site/assets/files/1044/prototyping-2.1920x0.jpg 1920w 1079h"></div>
-                              </div>
-
-              <canvas class="c-cards__mask" data-component="background" data-background-mask="0.1" data-ref="cards.mask"></canvas>
-
-              <div class="c-rounded__corners">
-                <canvas data-component="corner"></canvas>
-                <canvas data-component="corner"></canvas>
-                <canvas data-component="corner"></canvas>
-                <canvas data-component="corner"></canvas>
+              <div class="swiper-slide">
+                <div class="menu-item">
+                  <div class="menu_number"><span>N°</span>3</div>
+                  <h3>PORTRAITS<br />& PHOTOS</h3>
+                  <h4>SHOWCASE & ARCHIVE</h4>
+                  <div class="menu_btn">
+                    <a class="close_menu" href="./photo.html">explore↗</a>
+                  </div>
+                </div>
               </div>
-
-              <div class="c-cards__content o-reveal-childs u-flow u-flow-xs u-pb-l">
-                <p class="c-cards__label u-text-small">Prototyping</p>
-                <h1 class="c-cards__title">The <em>Art</em> of pattern making</h1>
-
-                                  <p class="c-cards__abstract u-flow-m u-text-small">From sketch to garment, a complete and customized service</p>
-                              </div>
-            </div>
-          </a>
-                  <a href="/en/production/" draggable="false" class="c-cards__card" data-ref="cards.card" data-theme-id="dove" data-pointer data-barba-transition="cards">
-            <div class="c-cards__card-wrapper c-rounded">
-              <div class="c-cards__media">
-                                  <video src="/site/assets/files/1043/production-1.mp4" loop muted preload="none" playsinline></video>
-                
-                                  <div class="lazyload lazypreload" data-sizes="auto" data-bgset="/site/assets/files/1043/production-2.640x0.jpg 640w 360h, /site/assets/files/1043/production-2.1024x0.jpg 1024w 575h, /site/assets/files/1043/production-2.1920x0.jpg 1920w 1079h"></div>
-                              </div>
-
-              <canvas class="c-cards__mask" data-component="background" data-background-mask="0.1" data-ref="cards.mask"></canvas>
-
-              <div class="c-rounded__corners">
-                <canvas data-component="corner"></canvas>
-                <canvas data-component="corner"></canvas>
-                <canvas data-component="corner"></canvas>
-                <canvas data-component="corner"></canvas>
+              <div class="swiper-slide">
+                <div class="menu-item">
+                  <div class="menu_number"><span>N°</span>4</div>
+                  <h3>ARTWORKØ<br />BRAND/CONCEPT</h3>
+                  <h4>DESIGN & DIRECTION</h4>
+                  <div class="menu_btn">
+                    <a class="close_menu" href="./graphics.html">explore↗</a>
+                  </div>
+                </div>
               </div>
-
-              <div class="c-cards__content o-reveal-childs u-flow u-flow-xs u-pb-l">
-                <p class="c-cards__label u-text-small">Production</p>
-                <h1 class="c-cards__title">Crafting <em>your</em> ideas</h1>
-
-                                  <p class="c-cards__abstract u-flow-m u-text-small">We transform a creative vision into exclusive garments</p>
-                              </div>
-            </div>
-          </a>
-                  <a href="/en/sustainability/" draggable="false" class="c-cards__card" data-ref="cards.card" data-theme-id="green" data-pointer data-barba-transition="cards">
-            <div class="c-cards__card-wrapper c-rounded">
-              <div class="c-cards__media">
-                                  <video src="/site/assets/files/1045/sustainability.mp4" loop muted preload="none" playsinline></video>
-                
-                                  <div class="lazyload lazypreload" data-sizes="auto" data-bgset="/site/assets/files/1045/sustainability-2.640x0.jpg 640w 360h, /site/assets/files/1045/sustainability-2.1024x0.jpg 1024w 575h, /site/assets/files/1045/sustainability-2.1920x0.jpg 1920w 1079h"></div>
-                              </div>
-
-              <canvas class="c-cards__mask" data-component="background" data-background-mask="0.1" data-ref="cards.mask"></canvas>
-
-              <div class="c-rounded__corners">
-                <canvas data-component="corner"></canvas>
-                <canvas data-component="corner"></canvas>
-                <canvas data-component="corner"></canvas>
-                <canvas data-component="corner"></canvas>
+              <div class="swiper-slide">
+                <div class="menu-item">
+                  <div class="menu_number"><span>N°</span>5</div>
+                  <h3>
+                    STRUCTURE<br />
+                    & COSTS
+                  </h3>
+                  <h4>HIRE ME!</h4>
+                  <div class="menu_btn">
+                    <a class="close_menu" href="./workstructure.html">contact↗</a>
+                  </div>
+                </div>
               </div>
-
-              <div class="c-cards__content o-reveal-childs u-flow u-flow-xs u-pb-l">
-                <p class="c-cards__label u-text-small">Sustainability</p>
-                <h1 class="c-cards__title">Shaping a <em>better</em> future</h1>
-
-                                  <p class="c-cards__abstract u-flow-m u-text-small">Ethics and aesthetics: an inseparable bond</p>
-                              </div>
-            </div>
-          </a>
-              </div>
-    </div>
-
-    <div class="c-cards__total u-text-small" data-ref="cards.total"></div>
-    <div class="c-cards__counter u-text-small" data-ref="cards.counter"></div>
-  </div>
-
-        <div class="c-intro" data-component="intro">
-      <div class="c-intro_wrapper" data-ref="intro.wrapper">
-        <div class="o-container">
-          <div class="o-grid">
-            <div class="c-intro_col">
-              <h1 class="c-intro_title" data-ref="intro.title">Ciao.<br />
-We are a manufacturing platform for high-end fashion brands.<br />
-                </h1>
             </div>
           </div>
-<div class="c-video" data-component="video-player">
-  <div class="c-video__stage" data-ref="video-player.stage"></div>
-  <div class="c-video__screen">
-    <div class="c-video__player">
-      <video class="c-video__video video-js" data-ref="video-player.video" data-src="https://player.vimeo.com/external/760970696.m3u8?s=a1aaa8934804038666a75fbb0af0c2c4151257cb" autoplay controls preload="auto"></video>
+        </section>
+        <div class="swiper-pagination"></div>
+        <div class="swiper_nav_controls">
+          <div class="swiper_prev">PREV</div>
+          <div class="swiper_next">NEXT</div>
+        </div>
+        <h5 class="menu_text_right">← DRAG →</h5>
+      </div>
     </div>
   </div>
-</div>
+  <div class="menu-open"><img src="/assets/menu_open.3b8f55cd.svg" alt="" /></div>
+
+  <span class="scroll_text">SCROLL <em>↓</em></span>
+  <!-- <img
+      onclick="toggleFullScreen()"
+      id="fullscreen_svg"
+      src="./img/fullscreen.svg"
+      alt=""
+    /> -->
+  <header id="header">
+    <div class="row">
+      <div class="header-inner">
+        <div class="navigation">
+          <nav>
+            <ul>
+              <li>
+                <a href="./index.html">CREVIXA — <em>Home</em></a>
+              </li>
+              <li>
+                <span><a href="./workstructure.html">Work</a><br /><a href="./musicvideos.html">Music Videos</a></span>
+              </li>
+            </ul>
+          </nav>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <div data-barba="container" data-barba-namespace="home">
+    <div class="scroll-container" data-scroll-container>
+      <main id="main" class="site-main">
+        <section class="hero_container">
+          <div class="hero_title_container">
+            <div class="hero_title_container_box">
+              <a href="#showcase">↓</a>
+            </div>
+            <div class="hero_title_heading">
+              <img src="/assets/crevixa_logo_text.f744686b.png" alt="" />
+              <!-- <h1>CREVIXA<em>™</em></h1> -->
+            </div>
+            <div class="hero_title_reel">
+              <img src="/assets/hero_logo.8b06effd.gif" alt="" />
+              <a href="https://drive.google.com/file/d/1x39uSovIt-E7dIQ4CgHa0TUeuNQHgRA4/view">Watch
+                Showreel<br /><em>↗</em></a>
+            </div>
+            <div class="hero_title_p">
+              <h3>
+                Artist run — music video, film, graphics and photography
+                production.
+              </h3>
+              <h2>V#00<em>1</em></h2>
+            </div>
+            <div class="hero_title_work">
+              <h1>SITE-MAP <em>↓</em></h1>
+              <a class="hero_title_work_a" href="./musicvideos.html">
+                <div class="hero_title_work_1">
+                  <div class="hero_title_work_top">
+                    <div>Music</div>
+                    <div>Videos</div>
+                    <div>N°<em>1</em></div>
+                  </div>
+                  <div class="hero_title_work_no">
+                    <div>Music Videos</div>
+
+                    <img class="hero_title_work_img" src="/assets/work_1.81441544.svg" alt="" />
+                  </div>
+                </div>
+              </a><a class="hero_title_work_a" href="./brandcontent.html">
+                <div class="hero_title_work_2">
+                  <div class="hero_title_work_top">
+                    <div>Ads</div>
+                    <div>Commercials</div>
+                    <div>N°<em>2</em></div>
+                  </div>
+                  <div class="hero_title_work_no">
+                    <div>BRAND CONTENT</div>
+
+                    <img class="hero_title_work_img" src="/assets/work_2.920edc82.svg" alt="" />
+                  </div>
+                </div>
+              </a>
+              <a class="hero_title_work_a" href="./photo.html">
+                <div class="hero_title_work_3">
+                  <div class="hero_title_work_top">
+                    <div>Photography</div>
+                    <div>DOP</div>
+                    <div>N°<em>3</em></div>
+                  </div>
+                  <div class="hero_title_work_no">
+                    <div>PORTRAITS & PHOTOS</div>
+
+                    <img class="hero_title_work_img" src="/assets/work_3.cf93d868.svg" alt="" />
+                  </div>
+                </div>
+              </a>
+              <a class="hero_title_work_a" href="./graphics.html">
+                <div class="hero_title_work_4">
+                  <div class="hero_title_work_top">
+                    <div>Assets</div>
+                    <div>Socials</div>
+                    <div>N°<em>4</em></div>
+                  </div>
+                  <div class="hero_title_work_no">
+                    <div>ARTWORK & GRAPHICS</div>
+
+                    <img class="hero_title_work_img" src="/assets/work_4.23f5b604.svg" alt="" />
+                  </div>
+                </div>
+              </a>
+              <a class="hero_title_work_a" href="./workstructure.html">
+                <div class="hero_title_work_4">
+                  <div class="hero_title_work_top">
+                    <div>Structure</div>
+                    <div>Cost</div>
+                    <div>N°<em>5</em></div>
+                  </div>
+                  <div class="hero_title_work_no">
+                    <div>WORK-STRUCTURE & COSTS</div>
+
+                    <img class="hero_title_work_img" src="/assets/work_5.a0390bb7.svg" alt="" />
+                  </div>
+                </div>
+              </a>
+            </div>
+          </div>
+        </section>
 
 
-  <div class="c-gl" data-component="gl"></div>
-  <div class="c-pointer">
-  <div data-pointer-id="menu">
-    <div class="c-pointer__sprite"></div>
+
+        <section id="showcase">
+          <div class="video_container_title">
+            <h2>POP</h2>
+            <p>GENRES</p>
+          </div>
+          <div class="square-container_3" id="scrollto">
+            <div class="square">
+              <div class="content">
+                <a class="popup-youtube" href="https://www.youtube.com/watch?v=U-irWVtNvYI">YOUTUBE VIDEO</a>
+                <figure>
+                  <img src="/assets/imghearme.e5c38432.jpg" alt="" />
+                </figure>
+              </div>
+
+              <h4>Hear Me <br /><b>Zephyrtone</b></h4>
+            </div>
+            <div class="square">
+              <div class="content">
+                <a class="popup-youtube" href="https://www.youtube.com/watch?v=PV4LMYstfnI">YOUTUBE VIDEO</a>
+                <figure>
+                  <img src="/assets/imgprada.5fc9b369.jpg" alt="" />
+                </figure>
+              </div>
+
+              <h4>Prada (Duro Duro) <br /><b>The Doorbeen, Alia Bhatt</b></h4>
+            </div>
+            <div class="square">
+              <div class="content">
+                <a class="popup-youtube" href="https://www.youtube.com/watch?v=g5m9GhZy8yw">YOUTUBE VIDEO</a>
+                <figure>
+                  <img src="/assets/imgrunaway.693dea52.jpg" alt="" />
+                </figure>
+              </div>
+
+              <h4>Runaway <br /><b> Sejal Kumar</b></h4>
+            </div>
+          </div>
+        </section>
+
+        <section id="showcase">
+          <div class="video_container_title">
+            <h2>DARK</h2>
+            <p>GENRES</p>
+          </div>
+          <div class="square-container_3" id="scrollto">
+            <div class="square">
+              <div class="content">
+                <a class="popup-youtube" href="https://www.youtube.com/watch?v=X8Uf3hu0hWY">YOUTUBE VIDEO</a>
+                <figure>
+                  <img src="/assets/imggoat.bcba6bfb.jpg" alt="" />
+                </figure>
+              </div>
+
+              <h4>GOAT DEKHO <br /><b>RAFTAAR</b></h4>
+            </div>
+            <div class="square">
+              <div class="content">
+                <a class="popup-youtube" href="https://www.youtube.com/watch?v=gY2QcmUZY40">YOUTUBE VIDEO</a>
+                <figure>
+                  <img src="/assets/imgdeadheads.512b07a9.jpg" alt="" />
+                </figure>
+              </div>
+
+              <h4>Deadheads</h4>
+            </div>
+            <div class="square">
+              <div class="content">
+                <a class="popup-youtube" href="https://www.youtube.com/watch?v=aY7XiqL4Pl0">YOUTUBE VIDEO</a>
+                <figure>
+                  <img src="/assets/imgwrathofgod.1bf06a4a.jpg" alt="" />
+                </figure>
+              </div>
+
+              <h4>Wrath of God</h4>
+            </div>
+          </div>
+        </section>
+
+        <section id="showcase">
+          <div class="video_container_title">
+            <h2>HIP HOP</h2>
+            <p>GENRES</p>
+          </div>
+          <div class="square-container_3" id="scrollto">
+            <div class="square">
+              <div class="content">
+                <a class="popup-youtube" href="https://www.youtube.com/watch?v=lLjz6ukOBMo">YOUTUBE VIDEO</a>
+                <figure>
+                  <img src="/assets/imgneversleep.1d078b48.jpg" alt="" />
+                </figure>
+              </div>
+
+              <h4>Never Sleep</h4>
+            </div>
+            <div class="square">
+              <div class="content">
+                <a class="popup-youtube" href="https://www.youtube.com/watch?v=Ra0jm7CXudY">YOUTUBE VIDEO</a>
+                <figure>
+                  <img src="/assets/imgelaan.c8cdcded.jpg" alt="" />
+                </figure>
+              </div>
+
+              <h4>Elaan</h4>
+            </div>
+            <div class="square">
+              <div class="content">
+                <a class="popup-youtube" href="https://www.youtube.com/watch?v=ffvdXeeSuQQ">YOUTUBE VIDEO</a>
+                <figure>
+                  <img src="/assets/imgkaisahaibhai.a821620b.jpg" alt="" />
+                </figure>
+              </div>
+
+              <h4>Kaisa Hai Bhai</h4>
+            </div>
+          </div>
+        </section>
+
+        <section id="showcase">
+          <div class="video_container_title">
+            <h2>AESTHETICS</h2>
+            <p>GENRES</p>
+          </div>
+          <div class="square-container_3" id="scrollto">
+            <div class="square">
+              <div class="content">
+                <a class="popup-youtube" href="https://www.youtube.com/watch?v=g5m9GhZy8yw">YOUTUBE VIDEO</a>
+                <figure>
+                  <img src="/assets/imgrunaway.693dea52.jpg" alt="" />
+                </figure>
+              </div>
+
+              <h4>Runaway</h4>
+            </div>
+            <div class="square">
+              <div class="content">
+                <a class="popup-youtube" href="https://www.youtube.com/watch?v=IR0aZmA46tQ">YOUTUBE VIDEO</a>
+                <figure>
+                  <img src="/assets/imgfeelsreal.31aed12e.jpg" alt="" />
+                </figure>
+              </div>
+
+              <h4>Feels Real</h4>
+            </div>
+            <div class="square">
+              <div class="content">
+                <a class="popup-youtube" href="https://www.youtube.com/watch?v=RZgDCFUauZE">YOUTUBE VIDEO</a>
+                <figure>
+                  <img src="/assets/imghaikaisikaisi.1e29dcf0.jpeg" alt="" />
+                </figure>
+              </div>
+
+              <h4>Hai Kaisi Kaisi</h4>
+            </div>
+          </div>
+        </section>
+
+        <section id="showcase">
+          <div class="video_container_title">
+            <h2>LYRICAL</h2>
+            <p>GENRES</p>
+          </div>
+          <div class="square-container_3" id="scrollto">
+            <div class="square">
+              <div class="content">
+                <a class="popup-youtube" href="https://www.youtube.com/watch?v=N9gmqoJKaJY">YOUTUBE VIDEO</a>
+                <figure>
+                  <img src="/assets/imgmaghreb.8922ab35.jpg" alt="" />
+                </figure>
+              </div>
+
+              <h4>Maghreb</h4>
+            </div>
+            <div class="square">
+              <div class="content">
+                <a class="popup-youtube" href="https://www.youtube.com/watch?v=xN0eWZo7o_I">YOUTUBE VIDEO</a>
+                <figure>
+                  <img src="/assets/imgbandanagang.bb990997.jpg" alt="" />
+                </figure>
+              </div>
+
+              <h4>Bandana Gang</h4>
+            </div>
+            <div class="square">
+              <div class="content">
+                <a class="popup-youtube" href="https://www.youtube.com/watch?v=M-7muoeh5hs">YOUTUBE VIDEO</a>
+                <figure>
+                  <img src="/assets/imgwhenitsgone.4e79fdcc.jpg" alt="" />
+                </figure>
+              </div>
+
+              <h4>When Its Gone</h4>
+            </div>
+          </div>
+        </section>
+
+        <section id="showcase">
+          <div class="video_container_title">
+            <h2>DRAMA</h2>
+            <p>GENRES</p>
+          </div>
+          <div class="square-container_3" id="scrollto">
+            <div class="square">
+              <div class="content">
+                <a class="popup-youtube" href="https://www.youtube.com/watch?v=QiMGvniRKD0">YOUTUBE VIDEO</a>
+                <figure>
+                  <img src="/assets/imgcall.3f5eb010.jpg" alt="" />
+                </figure>
+              </div>
+
+              <h4>Call</h4>
+            </div>
+            <div class="square">
+              <div class="content">
+                <a class="popup-youtube" href="https://www.youtube.com/watch?v=I-2Ydk5577g">YOUTUBE VIDEO</a>
+                <figure>
+                  <img src="/assets/imgjaqeen.d6c6f140.jpg" alt="" />
+                </figure>
+              </div>
+
+              <h4>Jaqeen</h4>
+            </div>
+            <div class="square">
+              <div class="content">
+                <a class="popup-youtube" href="https://www.youtube.com/watch?v=itEskVLt7qw">YOUTUBE VIDEO</a>
+                <figure>
+                  <img src="/assets/imgsomeoneelsesstory.07aafdca.jpg" alt="" />
+                </figure>
+              </div>
+
+              <h4>Someone Else's</h4>
+            </div>
+          </div>
+        </section>
+
+        <section id="showcase">
+          <div class="video_container_title">
+            <h2>FUNK</h2>
+            <p>GENRES</p>
+          </div>
+          <div class="square-container_3" id="scrollto">
+            <div class="square">
+              <div class="content">
+                <a class="popup-youtube" href="https://www.youtube.com/watch?v=pJZTizXITW0">YOUTUBE VIDEO</a>
+                <figure>
+                  <img src="/assets/imgtrigger.2e25d247.jpg" alt="" />
+                </figure>
+              </div>
+
+              <h4>Trigger</h4>
+            </div>
+            <div class="square">
+              <div class="content">
+                <a class="popup-youtube" href="https://www.youtube.com/watch?v=yfY-DEHXm54">YOUTUBE VIDEO</a>
+                <figure>
+                  <img src="/assets/imgpraise.df1584ec.jpg" alt="" />
+                </figure>
+              </div>
+
+              <h4>Praise</h4>
+            </div>
+            <div class="square">
+              <div class="content">
+                <a class="popup-youtube" href="https://www.youtube.com/watch?v=DGdyrkDcfmU">YOUTUBE VIDEO</a>
+                <figure>
+                  <img src="/assets/imguncleji.7f111609.jpg" alt="" />
+                </figure>
+              </div>
+
+              <h4>Uncle Ji</h4>
+            </div>
+          </div>
+        </section>
+        <hr />
+        <section id="home-content">
+          <div style="
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                padding: 3ch;
+              ">
+            <a target="_blank" href="https://docs.google.com/presentation/d/1ZiXF-Qt_Mkk72mchZtQDV8DNakBoub3XwJCjzpABHHQ/edit?usp=sharing
+               ">
+              <h2>Watch More <em>↗</em></h2>
+            </a>
+          </div>
+        </section>
+        <hr />
+        <section id="home-content">
+          <div class="row c-gallery">
+            <div class="c-gallery__item is-parallax">
+              <h2>Watch Showreel</h2>
+              <div class="c-gallery__mask">
+                <a href="https://drive.google.com/file/d/1x39uSovIt-E7dIQ4CgHa0TUeuNQHgRA4/view"><img
+                    src="/assets/showreeltitle.68cf6143.gif" alt="" class="c-gallery__src" /></a>
+              </div>
+              <h2>#2023</h2>
+            </div>
+          </div>
+        </section>
+ 
+     
+        <section id="home-content">
+          <div class="row c-gallery">
+            <div class="c-gallery__item is-parallax">
+              <h2>BRANDS - We have worked with</h2>
+              <img src="/assets/brands_crevixa.4ab4e06f.jpg" alt="">
+           
+              <br>
+            </div>
+          </div>
+        </section>
+
+ 
+        <footer id="footer">
+          <div class="footer_container">
+            <div class="footer_container_sitemap">
+              <div class="footer_container_sitemap_container">
+                <div class="footer_container_sitemap_page">
+                  <h3>MUSIC<br />VIDEOS</h3>
+                  <h6>SHOWCASE & ARCHIVE</h6>
+                  <div class="footer_menu_btn">
+                    <a href="./musicvideos.html">↗</a>
+                  </div>
+                </div>
+                <div class="footer_container_sitemap_page">
+                  <h3>BRAND<br />CONTENT</h3>
+                  <h6>SHOWCASE & ARCHIVE</h6>
+                  <div class="footer_menu_btn">
+                    <a href="./brandcontent.html">↗</a>
+                  </div>
+                </div>
+                <div class="footer_container_sitemap_page">
+                  <h3>PORTRAITS<br />& PHOTOGRAPHY</h3>
+                  <h6>SHOWCASE & ARCHIVE</h6>
+                  <div class="footer_menu_btn">
+                    <a href="./photo.html">↗</a>
+                  </div>
+                </div>
+                <div class="footer_container_sitemap_page">
+                  <h3>ARTWORKS<br />& GRAPHICS</h3>
+                  <h6>SHOWCASE & ARCHIVE</h6>
+                  <div class="footer_menu_btn">
+                    <a href="./graphics.html">↗</a>
+                  </div>
+                </div>
+                <div class="footer_container_sitemap_page">
+                  <h3>WORK STRUCTURE<br />& COSTS</h3>
+                  <h6>SHOWCASE & ARCHIVE</h6>
+                  <div class="footer_menu_btn">
+                    <a href="./workstructure.html">↗</a>
+                  </div>
+                </div>
+              </div>
+              <div class="footer_container_sitemap_no_box">
+                <div class="footer_container_sitemap_page_no">
+                  <span>N°</span>1
+                </div>
+                <div class="footer_container_sitemap_page_no">
+                  <span>N°</span>2
+                </div>
+                <div class="footer_container_sitemap_page_no">
+                  <span>N°</span>3
+                </div>
+                <div class="footer_container_sitemap_page_no">
+                  <span>N°</span>4
+                </div>
+                <div class="footer_container_sitemap_page_no">
+                  <span>N°</span>5
+                </div>
+              </div>
+            </div>
+            <div class="footer_container_border">
+              <div class="footer_container_no">N°2023</div>
+              <div class="footer_container_name"><img class="header_logo" src="/assets/crevixa_logo_text.f744686b.png" alt="">
+              </div>
+              <div class="footer_container_name_hr"></div>
+              <ol class="footer_container_socials">
+                <li class="footer_container_socials_link">
+                  <a href="mailto:hey@crevixa.com">EMAIL <em>↗</em></a>
+                </li>
+                <li class="footer_container_socials_link">
+                  <a href="https://www.instagram.com/crevixa">INSTAGRAM <em>↗</em></a>
+                </li>
+                <li class="footer_container_socials_link">
+                  <a href="https://www.linkedin.com/in/crevixa-digital-production-642254195">LINKEDIN <em>↗</em></a>
+                </li>
+                <li class="footer_container_socials_link">
+                  <a href="https://linktr.ee/crevixa">RSS <em>↗</em></a>
+                </li>
+              </ol>
+              <div class="footer_container_credits">
+                Copyright © & ℗ <em>CREVIXA™</em><br />All Rights Reserved<br />Designed
+                & Developed By - <br /><i>Mohnish Landge</i>
+                <a href="http://mohnish.ml"><em style="text-decoration: underline">IVIIXIO™</em></a>
+              </div>
+              <div class="footer_container_version">V#001 2021</div>
+              <div class="footer_container_image">
+                <img src="/assets/orb_2.a810817e.svg" alt="" />
+              </div>
+              <div class="footer_container_logo">
+                <img src="/assets/crevixa_logo.65978054.svg" alt="" />
+              </div>
+            </div>
+          </div>
+        </footer>
+      </main>
+    </div>
   </div>
+</body>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/2.0.2/TweenMax.min.js"></script>
+<script src="https://unpkg.com/imagesloaded@4/imagesloaded.pkgd.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/magnific-popup.js/1.1.0/jquery.magnific-popup.min.js"></script>
+<script>
+  $(document).ready(function () {
+    $(".popup-youtube, .popup-vimeo, .popup-gmaps").magnificPopup({
+      disableOn: 700,
+      type: "iframe",
+      mainClass: "mfp-fade",
+      removalDelay: 160,
+      preloader: false,
 
-  <div data-pointer-id="video">
-    <div class="c-pointer__sprite"></div>
-  </div>
+      fixedContentPos: false,
+    });
+  });
+</script>
+<script>
+  tl = new TimelineMax({ paused: true });
 
-  <div data-pointer-id="lang">
-    <div class="c-pointer__sprite"></div>
-  </div>
+  tl.to(".menu-left", 1, {
+    left: 0,
+    ease: Expo.easeInOut,
+  });
 
-  <div data-pointer-id="contact">
-    <div class="c-pointer__sprite"></div>
-  </div>
+  tl.to(
+    ".menu-right",
+    1,
+    {
+      right: 0,
+      ease: Expo.easeInOut,
+    },
+    "-=1"
+  );
 
-  <div data-pointer-id="call">
-    <div class="c-pointer__sprite"></div>
-  </div>
+  tl.staggerFrom(
+    ".menu-links > div",
+    0.8,
+    {
+      y: 100,
+      opacity: 0,
+      ease: Expo.easeOut,
+    },
+    "0.1",
+    "-=0.4"
+  );
 
-  <div data-pointer-id="drag">
-    <div class="c-pointer__sprite"></div>
-  </div>
+  tl.staggerFrom(
+    ".mail > div, .socials > div",
+    0.8,
+    {
+      y: 100,
+      opacity: 0,
+      ease: Expo.easeOut,
+    },
+    "0.1",
+    "-=1"
+  );
 
-  <div data-pointer-id="map">
-    <div class="c-pointer__sprite"></div>
-  </div>
+  tl.from(
+    ".menu-close",
+    1,
+    {
+      scale: 0,
+      opacity: 1,
+      ease: Expo.easeInOut,
+    },
+    "-=1"
+  );
 
-  <div data-pointer-id="email">
-    <div class="c-pointer__sprite"></div>
-  </div>
+  tl.to(
+    ".hr",
+    0.4,
+    {
+      scaleY: 0.5,
+      transformOrigin: "0% 50%",
+      ease: Power2.ease,
+    },
+    "-=2"
+  );
 
-  <div data-pointer-id="home">
-    <div class="c-pointer__sprite"></div>
-  </div>
-</div>
+  tl.reverse();
+  $(document).on("click", ".menu-open", function () {
+    tl.reversed(!tl.reversed());
+  });
+  $(document).on("click", ".menu-close", function () {
+    tl.reversed(!tl.reversed());
+  });
+  $(document).on("click", ".close_menu", function () {
+    tl.reversed(!tl.reversed());
+  });
+  $(document).on("click", ".nav__link", function () {
+    tl.reversed(!tl.reversed());
+  });
+</script>
+<script>
+  function toggleFullScreen() {
+    if (
+      (document.fullScreenElement && document.fullScreenElement !== null) ||
+      (!document.mozFullScreen && !document.webkitIsFullScreen)
+    ) {
+      if (document.documentElement.requestFullScreen) {
+        document.documentElement.requestFullScreen();
+      } else if (document.documentElement.mozRequestFullScreen) {
+        document.documentElement.mozRequestFullScreen();
+      } else if (document.documentElement.webkitRequestFullScreen) {
+        document.documentElement.webkitRequestFullScreen(
+          Element.ALLOW_KEYBOARD_INPUT
+        );
+      }
+    } else {
+      if (document.cancelFullScreen) {
+        document.cancelFullScreen();
+      } else if (document.mozCancelFullScreen) {
+        document.mozCancelFullScreen();
+      } else if (document.webkitCancelFullScreen) {
+        document.webkitCancelFullScreen();
+      }
+    }
+  }
+</script>
+<script>
+  function toggleFullScreen() {
+    if (
+      (document.fullScreenElement && document.fullScreenElement !== null) ||
+      (!document.mozFullScreen && !document.webkitIsFullScreen)
+    ) {
+      if (document.documentElement.requestFullScreen) {
+        document.documentElement.requestFullScreen();
+      } else if (document.documentElement.mozRequestFullScreen) {
+        document.documentElement.mozRequestFullScreen();
+      } else if (document.documentElement.webkitRequestFullScreen) {
+        document.documentElement.webkitRequestFullScreen(
+          Element.ALLOW_KEYBOARD_INPUT
+        );
+      }
+    } else {
+      if (document.cancelFullScreen) {
+        document.cancelFullScreen();
+      } else if (document.mozCancelFullScreen) {
+        document.mozCancelFullScreen();
+      } else if (document.webkitCancelFullScreen) {
+        document.webkitCancelFullScreen();
+      }
+    }
+  }
+</script>
 
-  <svg class="c-svg-library"><defs><symbol id="icon-download" viewBox="0 0 13 18"><path d="M6.5 1v12.603M6.5 13.603 1 8.108M6.5 13.603 12 8.108M1.546 17h9.779" /></symbol></defs></svg>
+
   <script src="/site/templates/js/app.min.1686140686.js" data-cookieconsent="ignore"></script>
     <!-- load barba (UMD version) -->
     <script src="https://unpkg.com/@barba/core"></script>
